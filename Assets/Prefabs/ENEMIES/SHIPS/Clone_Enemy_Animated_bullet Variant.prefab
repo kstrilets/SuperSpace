@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6702624970930675949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1760812167931903324, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_Name
+      value: Clone_Enemy_Animated_bullet Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874711383051916385, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: fireBonus
+      value: 
+      objectReference: {fileID: 6422310927463683969, guid: 95d657a4e5c224838a32bde9a0c6d605,
+        type: 3}
+    - target: {fileID: 2874711383051916385, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: fuelBonus
+      value: 
+      objectReference: {fileID: 3119174354755182398, guid: 4bbe854bd9672442b99b2fbef0e7fe1a,
+        type: 3}
+    - target: {fileID: 2874711383051916385, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: enemyStartHealth
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874711383051916385, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: healthBonus
+      value: 
+      objectReference: {fileID: 4355282689043338447, guid: 56f3ca543a5634dd587ee63faa832f39,
+        type: 3}
+    - target: {fileID: 2874711383051916385, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: isMoving
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7562634200653689905, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: speed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410032392975282550, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d2e2e7900c414eb3bbcd0f2d8e77724, type: 3}

@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8250205402973510754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8250205402973510752}
+  - component: {fileID: 8250205402973510755}
+  m_Layer: 0
+  m_Name: _AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8250205402973510752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8250205402973510754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8250205402973510755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8250205402973510754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc11ff7f61d1461e9968cfc31106764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: bg_music
+    clip: {fileID: 8300000, guid: db50bda42e50b4ea79803ea8b6a56e3c, type: 3}
+    output: {fileID: 24300002, guid: 6906d667b3ea84812b97a56c26fcb2a9, type: 2}
+    volume: 0.4
+    pitch: 1.2
+    loop: 1
+    source: {fileID: 0}
+  - name: button_click
+    clip: {fileID: 8300000, guid: efca5e213ae894f1db61fa592b2d7adc, type: 3}
+    output: {fileID: 24300002, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: shield_pickup
+    clip: {fileID: 8300000, guid: ae18b055ed2964156b076b037f3faf78, type: 3}
+    output: {fileID: 24300002, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: charge_pickup
+    clip: {fileID: 8300000, guid: 86e1d5c058cc7463fbede1c9d187c326, type: 3}
+    output: {fileID: 24300002, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: player_death
+    clip: {fileID: 8300000, guid: d42f57faabdc14c7c89880d1b5f124c5, type: 3}
+    output: {fileID: 24300002, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemy_death
+    clip: {fileID: 8300000, guid: 0d13cfc28309b480198b295dd38c2597, type: 3}
+    output: {fileID: 24300002, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: menu_music
+    clip: {fileID: 8300000, guid: d2c1a08fcd1834a13a8c7d00882c99ae, type: 3}
+    output: {fileID: 24300002, guid: 6906d667b3ea84812b97a56c26fcb2a9, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: game_lost
+    clip: {fileID: 8300000, guid: e1ce34bb414944860b86984f0360e064, type: 3}
+    output: {fileID: 24300002, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: game_win
+    clip: {fileID: 8300000, guid: bf2932e79fbe940f9acc841a65d936a2, type: 3}
+    output: {fileID: 24300002, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: fuel_pickup
+    clip: {fileID: 8300000, guid: efc1cc9b929bd4ebf9406c63a7859d47, type: 3}
+    output: {fileID: 24300002, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  musicMixer: {fileID: 24100000, guid: 6906d667b3ea84812b97a56c26fcb2a9, type: 2}
+  sfxMixer: {fileID: 24100000, guid: aef5f6a09580b4432b79faa218e11b49, type: 2}

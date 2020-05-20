@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hero
+  - Wall
+  - Bullet
+  - Enemy_1
+  - Enemy_bullet
+  - Ammo_box
+  - Ammo
+  - UpperEdge
+  - Spawner
+  - Player_bullet
+  - Player_small_bullet
+  - Player_health
+  - LevelGenerator01
+  - Asteroid
+  - Land
+  - Fire_bonus
+  - Add_fuel
+  - Add_life
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ammo
+  - player bullet
+  - enemy
+  - enemy bullet
+  - player
+  - land
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1377054419
+    locked: 0
+  - name: Land
+    uniqueID: 2737664631
+    locked: 0
+  - name: Enemy_bullet
+    uniqueID: 665408693
+    locked: 0
+  - name: Player
+    uniqueID: 863529297
+    locked: 0
