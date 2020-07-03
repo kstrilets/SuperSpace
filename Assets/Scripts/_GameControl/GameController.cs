@@ -290,6 +290,7 @@ public class GameController : MonoBehaviour
 
         DestroyAllGameObjects();
         DestroySpawner();
+        DestroyPlayerObject();
     }
 
 

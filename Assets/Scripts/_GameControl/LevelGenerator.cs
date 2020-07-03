@@ -76,30 +76,32 @@ public class LevelGenerator : MonoBehaviour
         //Setting level boss is dead to true to start first level generation 
         levelBossDead = true;
 
-       // EventManager.TriggerEvent("NEWAREATEXT");
     }
 
     void Update()
     {
-       
+
+        // Checking if it was the last level and calling game win UI part
+        if (level >= levelNumbers && levelBossDead)
+        {
+            EventManager.TriggerEvent("GAMEWIN");
+            return;
+        }
+
         //Cheking if it is not the last level, if generation of the previous level
         // is finished, and if previous level boss is dead
-        if (level < levelNumbers
+
+
+        if ((level + 1) <= levelNumbers
             && levelGenerationFinished == true
             && levelBossDead == true
             && _crStarted == false)
         {
-           
-                //Starting level generator coroutine 
-                StartCoroutine(GenerateLevel(level));
-                level++;
-        }
 
-        // Checking if it was the last level and calling game win UI part
-        else if (level > levelNumbers)
-        {
-            EventManager.TriggerEvent("GAMEWIN");
-        }    
+            //Starting level generator coroutine
+            StartCoroutine(GenerateLevel(level));
+              
+        }
     }
 
     // Level generating coroutine
@@ -150,12 +152,11 @@ public class LevelGenerator : MonoBehaviour
             if (k == chunkNumbers - 1)
             {
                 levelGenerationFinished = true;
+                level++;
             }
 
-            
+       
             yield return delay;
-
-            
         }
 
         _crStarted = false;
@@ -172,12 +173,11 @@ public class LevelGenerator : MonoBehaviour
         else
         {
             levelBossDead = true;
-
         }
     }
 
-   
-   
+
+
 
     // Getting the color of the pixel and generating prefab based on it
     void GenerateTile(int x, int y)
